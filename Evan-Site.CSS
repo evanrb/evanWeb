@@ -1,25 +1,25 @@
 html{
-    border: 10px solid #f28950;
-    background-color: #f28950;
+    border: 10px solid #D07540;
+    background-color: #D07540;
 }
 h2 {
 
     font-family: 'Fira Sans', sans-serif;
     font-size: 40px;
     text-align: center;
-    color: #f28950;
+    color: 	#D07540;
 }
 h3{
     font-family: 'Fira Sans', sans-serif;
-    color: #f28950;
+    color: #DD5D3F;
 }
 body {
     height: 700px;
-    border: 10px solid #f28950;
+    border: 10px solid 	#D07540;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 1px 100px;
     padding-bottom: 50px;
-    background-color: white;
+    background-color: 	#FFFFF2;
 }
 p{
     font-family: 'Open Sans Condensed', sans-serif;
@@ -35,85 +35,106 @@ button{
 
 /* Style the buttons inside the tab */
 .tab button {
-  left: 10px;
-  background-color: inherit;
-  float: left;
-  border: 1px solid #f28950;
-  outline: none;
-  cursor: pointer;
-  padding: 1px 1px;
-  transition: 0.3s;
-  font-size: 17px;
-  border-top-left-radius: 15px;
-  width: 140px;
-  height: 50px;
+    left: 10px;
+    background-color: inherit;
+    float: left;
+    border: 1px solid 	#D07540;
+    outline: none;
+    cursor: pointer;
+    padding: 1px 1px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-top-left-radius: 15px;
+    width: 140px;
+    height: 50px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #f28950;
-  color: white;
+    background-color: 	#D07540;
+    color: 	#FFFFF2;
 }
 
 /* Style the tab content */
 .tabcontent {
-  display: none;
-  padding: 12px 12px;
-  border: 30px solid #f28950;
-  border-radius: 12px;
-  height: 400px;
-  width: 700px;
-  position: absolute;
-  left: 100px;
+    display: none;
+    padding: 12px 12px;
+    border: 30px solid 	#D07540;
+    border-radius: 12px;
+    height: 420px;
+    width: 860px;
+    position: absolute;
+    left: 100px;
 }
 
 .hl1 {
     position: absolute;
-    border: 3px solid #f28950;
-    width: 650px;
-    top: 116.5px;
+    border: 1px solid 	#D07540;
+    width: 660px;
+    top: 120.5px;
     left: 0px;
 }
 .hl2 {
     position: absolute;
-    border: 3px solid #f28950;
-    width: 646px;
-    top: 116.5px;
+    border: 1px solid 	#D07540;
+    width: 650px;
+    top: 120.5px;
     right: 0px;
 }
 .vl {
     position: absolute;
-    border: 3px solid #f28950;
-    height: 250px;
-    top: 400px;
-    right: 500px;
+    border: 3px solid #DD5D3F;
+    height: 240px;
+    top: 430px;
+    right: 430px;
 }
 .dot1 {
     position: absolute;
-  height: 25px;
-  width: 25px;
-  background-color: white;
-  border: 15px;
-  border-radius: 20px;
-  display: inline-block;
-    border-color: #f28950;
-    right: 491px;
-    top: 500px;
+    height: 20px;
+    width: 20px;
+    background-color: #DD5D3F;
+    border: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    border-color: #e84c20;
+    right: 423.2px;
+    top: 420px;
 }
 .dot2 {
     position: absolute;
-  height: 25px;
-  width: 25px;
-  background-color: #f28950;
-  border-radius: 50%;
-  display: inline-block;
-  border: 3px;
+    height: 20px;
+    width: 20px;
+    background-color: #DD5D3F;
+    border-radius: 50%;
+    display: inline-block;
+    border: 3px;
     border-color: #f28950;
-    right: 491px;
-    bottom: 200px;
+    right: 423.2px;
+    bottom: 50px;
+}
+
+img {
+    width: 375px;
+    position: absolute;
+    right: 60px;
+    top: 150px;
+}
+
+ul {
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    right: 330px;
+    top: 460px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 10px;
 }

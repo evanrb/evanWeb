@@ -9,7 +9,11 @@ function openTab(evt, tabName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+    console.log(evt);
+  if(evt != "onload"){
+      evt.currentTarget.className += " active";
+      console.log(evt.currentTarget);
+  }
 }
 
-openTab(onload, 'AboutMe');
+openTab("onload", 'AboutMe');
